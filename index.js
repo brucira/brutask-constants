@@ -1,6 +1,7 @@
 export const FirestoreCollectionNames = {
   events: 'events',
   integrations: 'integrations',
+  jobs: 'jobs',
   responses: 'responses',
   rooms: 'rooms',
   spaces: 'spaces',
