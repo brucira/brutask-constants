@@ -3,7 +3,9 @@
   "version": "0.0.2",
   "description": "Common constants used by Brutask app and server",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "version": "npm version patch"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/brucira/brutask-constants.git"
@@ -21,7 +23,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm version patch"
+      "pre-commit": "npm run version"
     }
   }
 }
