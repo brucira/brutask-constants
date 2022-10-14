@@ -1,4 +1,4 @@
-export const FirestoreCollectionNames = {
+const FirestoreCollectionNames = {
   events: 'events',
   integrations: 'integrations',
   jobs: 'jobs',
@@ -16,4 +16,8 @@ export const FirestoreCollectionNames = {
   backlog: 'backlog',
   messages: 'messages',
   conversations: 'messages',
+};
+
+module.exports = {
+  FirestoreCollectionNames,
 };
