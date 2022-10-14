@@ -4,7 +4,8 @@
   "description": "Common constants used by Brutask app and server",
   "main": "index.js",
   "scripts": {
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "version": "npm version patch"
   },
   "repository": {
     "type": "git",
@@ -23,7 +24,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm version patch"
+      "pre-commit": "npm run version"
     }
   }
 }
