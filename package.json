@@ -1,9 +1,11 @@
 {
-  "name": "brutask-constants",
-  "version": "1.0.0",
+  "name": "@brutask/constants",
+  "version": "0.0.1",
   "description": "Common constants used by Brutask app and server",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "prepare": "husky install"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/brucira/brutask-constants.git"
@@ -16,6 +18,12 @@
   },
   "homepage": "https://github.com/brucira/brutask-constants#readme",
   "devDependencies": {
+    "husky": "^8.0.1",
     "prettier": "^2.7.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm version patch"
+    }
   }
 }
