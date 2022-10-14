@@ -1,6 +1,6 @@
 {
   "name": "@brutask/constants",
-  "version": "0.0.82",
+  "version": "0.0.83",
   "description": "Common constants used by Brutask app and server",
   "main": "index.js",
   "scripts": {
