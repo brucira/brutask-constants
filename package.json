@@ -1,0 +1,21 @@
+{
+  "name": "brutask-constants",
+  "version": "1.0.0",
+  "description": "Common constants used by Brutask app and server",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brucira/brutask-constants.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brucira/brutask-constants/issues"
+  },
+  "homepage": "https://github.com/brucira/brutask-constants#readme",
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+}
